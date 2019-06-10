@@ -1,5 +1,5 @@
 *** Settings ***
-#Library      SeleniumLibrary
+Library      SeleniumLibrary
 
 *** Keywords ***
 Wait And Input Data

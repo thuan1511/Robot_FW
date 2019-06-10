@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot rpa="false" generated="20190530 23:09:41.774" generator="Robot 3.1.2 (Python 2.7.16 on win32)">
-<suite source="C:\Users\ThuanNguyen\Desktop\robotFW\Testcase\login.robot" id="s1" name="Login">
+<robot rpa="false" generated="20190531 18:34:54.989" generator="Robot 3.1.2 (Python 2.7.16 on win32)">
+<suite source="C:\Users\Thuan.nh\PycharmProjects\Robot_FW\Testcase\login.robot" id="s1" name="Login">
 <test id="s1-t1" name="Verify Title Of Page">
 <kw name="Given navigate to homepage" library="loginStep">
 <kw name="Open Browser To Login Page" library="loginPage">
@@ -10,16 +10,16 @@
 <arg>${URL}</arg>
 <arg>${BROWSER}</arg>
 </arguments>
-<msg timestamp="20190530 23:09:41.980" level="INFO">Opening browser 'chrome' to base url 'https://kintai.stg.jinjer.net'.</msg>
-<status status="PASS" endtime="20190530 23:09:49.203" starttime="20190530 23:09:41.980"></status>
+<msg timestamp="20190531 18:34:55.219" level="INFO">Opening browser 'chrome' to base url 'https://kintai.stg.jinjer.net'.</msg>
+<status status="PASS" endtime="20190531 18:35:01.474" starttime="20190531 18:34:55.219"></status>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" endtime="20190530 23:09:50.366" starttime="20190530 23:09:49.203"></status>
+<status status="PASS" endtime="20190531 18:35:02.600" starttime="20190531 18:35:01.474"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.367" starttime="20190530 23:09:41.980"></status>
+<status status="PASS" endtime="20190531 18:35:02.600" starttime="20190531 18:34:55.218"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.367" starttime="20190530 23:09:41.979"></status>
+<status status="PASS" endtime="20190531 18:35:02.600" starttime="20190531 18:34:55.218"></status>
 </kw>
 <kw name="When input user and pass" library="loginStep">
 <kw name="Input Username And Password" library="loginPage">
@@ -34,7 +34,7 @@
 <arg>${locator}</arg>
 <arg>10</arg>
 </arguments>
-<status status="PASS" endtime="20190530 23:09:50.403" starttime="20190530 23:09:50.371"></status>
+<status status="PASS" endtime="20190531 18:35:02.632" starttime="20190531 18:35:02.602"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -42,10 +42,10 @@
 <arg>${locator}</arg>
 <arg>${text}</arg>
 </arguments>
-<msg timestamp="20190530 23:09:50.404" level="INFO">Typing text '20192019' into text field '//*[@id='company_code']'.</msg>
-<status status="PASS" endtime="20190530 23:09:50.513" starttime="20190530 23:09:50.403"></status>
+<msg timestamp="20190531 18:35:02.633" level="INFO">Typing text '20192019' into text field '//*[@id='company_code']'.</msg>
+<status status="PASS" endtime="20190531 18:35:02.731" starttime="20190531 18:35:02.632"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.513" starttime="20190530 23:09:50.370"></status>
+<status status="PASS" endtime="20190531 18:35:02.731" starttime="20190531 18:35:02.601"></status>
 </kw>
 <kw name="Wait And Input Data" library="common_keywords">
 <arguments>
@@ -58,7 +58,7 @@
 <arg>${locator}</arg>
 <arg>10</arg>
 </arguments>
-<status status="PASS" endtime="20190530 23:09:50.539" starttime="20190530 23:09:50.513"></status>
+<status status="PASS" endtime="20190531 18:35:02.772" starttime="20190531 18:35:02.731"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -66,10 +66,10 @@
 <arg>${locator}</arg>
 <arg>${text}</arg>
 </arguments>
-<msg timestamp="20190530 23:09:50.539" level="INFO">Typing text '1' into text field '//*[@name = 'email']'.</msg>
-<status status="PASS" endtime="20190530 23:09:50.600" starttime="20190530 23:09:50.539"></status>
+<msg timestamp="20190531 18:35:02.772" level="INFO">Typing text '1' into text field '//*[@name = 'email']'.</msg>
+<status status="PASS" endtime="20190531 18:35:02.853" starttime="20190531 18:35:02.772"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.600" starttime="20190530 23:09:50.513"></status>
+<status status="PASS" endtime="20190531 18:35:02.853" starttime="20190531 18:35:02.731"></status>
 </kw>
 <kw name="Wait And Input Data" library="common_keywords">
 <arguments>
@@ -82,7 +82,7 @@
 <arg>${locator}</arg>
 <arg>10</arg>
 </arguments>
-<status status="PASS" endtime="20190530 23:09:50.626" starttime="20190530 23:09:50.601"></status>
+<status status="PASS" endtime="20190531 18:35:02.881" starttime="20190531 18:35:02.853"></status>
 </kw>
 <kw name="Input Text" library="SeleniumLibrary">
 <doc>Types the given ``text`` into text field identified by ``locator``.</doc>
@@ -90,10 +90,10 @@
 <arg>${locator}</arg>
 <arg>${text}</arg>
 </arguments>
-<msg timestamp="20190530 23:09:50.627" level="INFO">Typing text '12345678' into text field '//*[@name='password']'.</msg>
-<status status="PASS" endtime="20190530 23:09:50.707" starttime="20190530 23:09:50.626"></status>
+<msg timestamp="20190531 18:35:02.882" level="INFO">Typing text '12345678' into text field '//*[@name='password']'.</msg>
+<status status="PASS" endtime="20190531 18:35:02.952" starttime="20190531 18:35:02.882"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.708" starttime="20190530 23:09:50.600"></status>
+<status status="PASS" endtime="20190531 18:35:02.952" starttime="20190531 18:35:02.853"></status>
 </kw>
 <kw name="Wait And Click Element" library="common_keywords">
 <arguments>
@@ -105,21 +105,21 @@
 <arg>${locator}</arg>
 <arg>10</arg>
 </arguments>
-<status status="PASS" endtime="20190530 23:09:50.735" starttime="20190530 23:09:50.708"></status>
+<status status="PASS" endtime="20190531 18:35:02.975" starttime="20190531 18:35:02.953"></status>
 </kw>
 <kw name="Click Button" library="SeleniumLibrary">
 <doc>Clicks button identified by ``locator``.</doc>
 <arguments>
 <arg>${locator}</arg>
 </arguments>
-<msg timestamp="20190530 23:09:50.735" level="INFO">Clicking button '//*[@id='jbtn-login-staff']'.</msg>
-<status status="PASS" endtime="20190530 23:09:50.838" starttime="20190530 23:09:50.735"></status>
+<msg timestamp="20190531 18:35:02.976" level="INFO">Clicking button '//*[@id='jbtn-login-staff']'.</msg>
+<status status="PASS" endtime="20190531 18:35:03.035" starttime="20190531 18:35:02.976"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.839" starttime="20190530 23:09:50.708"></status>
+<status status="PASS" endtime="20190531 18:35:03.035" starttime="20190531 18:35:02.952"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.839" starttime="20190530 23:09:50.369"></status>
+<status status="PASS" endtime="20190531 18:35:03.035" starttime="20190531 18:35:02.601"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:50.839" starttime="20190530 23:09:50.368"></status>
+<status status="PASS" endtime="20190531 18:35:03.035" starttime="20190531 18:35:02.601"></status>
 </kw>
 <kw name="Then verify login succcess" library="loginStep">
 <kw name="Verify Title Of Page" library="loginPage">
@@ -129,15 +129,15 @@
 <arg>${DATE_TIME}</arg>
 <arg>15</arg>
 </arguments>
-<status status="PASS" endtime="20190530 23:09:55.608" starttime="20190530 23:09:50.841"></status>
+<status status="PASS" endtime="20190531 18:35:06.852" starttime="20190531 18:35:03.036"></status>
 </kw>
 <kw name="Get Title" library="SeleniumLibrary">
 <doc>Returns the title of current page.</doc>
 <assign>
 <var>${Actual}</var>
 </assign>
-<msg timestamp="20190530 23:09:55.623" level="INFO">${Actual} = Time-Staff</msg>
-<status status="PASS" endtime="20190530 23:09:55.623" starttime="20190530 23:09:55.608"></status>
+<msg timestamp="20190531 18:35:06.878" level="INFO">${Actual} = Time-Staff</msg>
+<status status="PASS" endtime="20190531 18:35:06.878" starttime="20190531 18:35:06.852"></status>
 </kw>
 <kw name="Should Be Equal" library="BuiltIn">
 <doc>Fails if the given objects are unequal.</doc>
@@ -145,19 +145,19 @@
 <arg>${Actual}</arg>
 <arg>${Title}</arg>
 </arguments>
-<status status="PASS" endtime="20190530 23:09:55.624" starttime="20190530 23:09:55.624"></status>
+<status status="PASS" endtime="20190531 18:35:06.879" starttime="20190531 18:35:06.878"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:55.624" starttime="20190530 23:09:50.840"></status>
+<status status="PASS" endtime="20190531 18:35:06.879" starttime="20190531 18:35:03.036"></status>
 </kw>
-<status status="PASS" endtime="20190530 23:09:55.624" starttime="20190530 23:09:50.840"></status>
+<status status="PASS" endtime="20190531 18:35:06.879" starttime="20190531 18:35:03.036"></status>
 </kw>
 <tags>
 <tag>DEBUG</tag>
 </tags>
-<status status="PASS" endtime="20190530 23:09:55.625" critical="yes" starttime="20190530 23:09:41.978"></status>
+<status status="PASS" endtime="20190531 18:35:06.880" critical="yes" starttime="20190531 18:34:55.217"></status>
 </test>
 <doc>Suite description</doc>
-<status status="PASS" endtime="20190530 23:09:55.627" starttime="20190530 23:09:41.776"></status>
+<status status="PASS" endtime="20190531 18:35:06.883" starttime="20190531 18:34:54.991"></status>
 </suite>
 <statistics>
 <total>
