@@ -11,3 +11,4 @@ Wait And Click Element
     [Arguments]     ${locator}
     wait until element is visible   ${locator}      10
     click button    ${locator}
+

@@ -1,6 +1,7 @@
 *** Settings ***
 Documentation    Suite description
-Resource  ../Steps/loginStep.robot
+Resource  ../Steps/login_Step.robot
+Resource  ../Steps/staffScreen_Step.robot
 
 *** Test Cases ***
 
@@ -12,6 +13,6 @@ Verify Title Of Page
 
 Verify UI Of Staff Screen
     [Tags]      staffscreen
-    Given   Verify Button Checkin Checkout
-    When    Verify Datetime Display
-    Then    Verify Menu Of Staff Screen
+    Given Verify Button Checkin Checkout
+    When Verify Datetime Display
+    Then Verify Menu Of Staff Screen

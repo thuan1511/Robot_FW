@@ -1,6 +1,6 @@
 *** Settings ***
 Documentation    Suite description
-Resource    ../Pages/loginPage.robot
+Resource    ../Pages/loginPage_keyword.robot
 
 
 
@@ -8,9 +8,7 @@ Resource    ../Pages/loginPage.robot
 
 navigate to homepage
     Open Browser To Login Page
-
 input user and pass
     Input Username And Password
-
 verify login succcess
     Verify Title Of Page
