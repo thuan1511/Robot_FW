@@ -5,20 +5,23 @@ Install robotmetrics
 Case 1: Using pip
 
 pip install robotframework-metrics
+
 Case 2: Using setup.py (clone project and run command within root)
 
 python setup.py install
+
 Execute robotmetrics command to generate report
 
 Case 1: No change in output.xml, log.html file name's and user is in same folder
-
 robotmetrics
-Case 2: Change in output.xml, log.html file name's And .xml and .html files are under 'Result' folder
 
+Case 2: Change in output.xml, log.html file name's And .xml and .html files are under 'Result' folder
 robotmetrics --inputpath ./Result/ --output "output1.xml" --log "log1.html"
+
 For more info on command line options use:
 
 robotmetrics --help
+
 RobotFramework Metrics Report metric-timestamp.html file will be created in current folder | -inputpath if specified
 
 Email will be sent to mentioned recepient with metric-timestamp.html file
@@ -29,6 +32,7 @@ Specify Logo in Robotframework metrics:
 Custom Logo : Customize your logo by using --logo command line option
 
 --logo "https://mycompany/logo.jpg"
+
 How to Specifiy EMAIL recepients
 Default robotmetrics uses gmail server. From command line users have to specific FROM, PWD, TO and CC
 
