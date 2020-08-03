@@ -16,7 +16,8 @@ Step6: Install robotframework-jsonlibrary
 
 
 robot -d ./Test_results test.robot
-robotmetrics ./Test_results
+robotmetrics --inputpath ./Test_results
+
 
 
 
