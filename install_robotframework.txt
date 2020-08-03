@@ -15,6 +15,11 @@ Step6: Install robotframework-jsonlibrary
 4. pip install /Users/jimbi/Downloads/robotframework-jsonlibrary-master 
 
 
+robot -d ./Test_results test.robot
+robotmetrics ./Test_results
+
+
+
 ****************************************
 How to use in project: Install robotmetrics
 
