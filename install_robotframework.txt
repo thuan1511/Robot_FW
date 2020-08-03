@@ -1,0 +1,15 @@
+**********************************
+API TESTING Using Robot framework
+Step1: Steup Python  - Python 3 version
+Step2: Steup Pycharm - Python code + Robot Testcase
+Step3: Setup intellibot Plugin (support for writing robot TC)
+Step4: Configure PIP
+Step5: Install robotframework-requests and it's dependencies via pip
+- pip install robotframework
+- pip install -U requests
+- pip install -U robotframework-requests 
+Step6: Install robotframework-jsonlibrary
+1. pip install jsonpath_rw
+2. pip install jsonpath_rw_ext
+3. pip install robotframework-jsonlibrary
+4. pip install /Users/jimbi/Downloads/robotframework-jsonlibrary-master 
