@@ -6,6 +6,7 @@ Step3: Setup intellibot Plugin (support for writing robot TC)
 Step4: Configure PIP
 Step5: Install robotframework-requests and it's dependencies via pip
 - pip3 install robotframework
+- pip3 install robotframework-faker
 - pip3 install -U requests
 - pip3 install -U robotframework-requests 
 Step6: Install robotframework-jsonlibrary
